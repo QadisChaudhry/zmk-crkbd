@@ -9,24 +9,24 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-        behaviors {
-            hrm: homerow_mods {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HOMEROW_MODS";
-                #binding-cells = <2>;
-                tapping-term-ms = <190>;
-                quick-tap-ms = <0>;
-                flavor = "tap-preferred";
-                bindings = <&kp>, <&kp>;
-            };
-        };
+        /* behaviors { */
+        /*     hrm: homerow_mods { */
+        /*         compatible = "zmk,behavior-hold-tap"; */
+        /*         label = "HOMEROW_MODS"; */
+        /*         #binding-cells = <2>; */
+        /*         tapping-term-ms = <190>; */
+        /*         quick-tap-ms = <0>; */
+        /*         flavor = "tap-preferred"; */
+        /*         bindings = <&kp>, <&kp>; */
+        /*     }; */
+        /* }; */
 
-        &lt {
-            tapping-term-ms = <90>;
-        };
-        &mt {
-            tapping-term-ms = <90>;
-        };
+        /* &lt { */
+        /*     tapping-term-ms = <90>; */
+        /* }; */
+        /* &mt { */
+        /*     tapping-term-ms = <90>; */
+        /* }; */
 
         keymap {
                 compatible = "zmk,keymap";
@@ -41,7 +41,7 @@
                         bindings = <
    &kp TAB   &kp Q        &kp W       &kp F       &kp P        &kp B     &kp J &kp L        &kp U           &kp Y         &kp SEMI        &kp EQUAL
    &lt 3 ESC &kp A        &kp R       &kp S       &kp T        &kp G     &kp M &kp N        &kp E           &kp I         &kp O           &kp SQT
-   &kp LSHFT &hrm LCTRL Z &hrm LALT X &hrm LGUI C &hrm LSHFT D &kp V     &kp K &hrm LSHFT H &hrm LGUI COMMA &hrm LALT DOT &hrm LCTRL FSLH &kp RSHFT
+   &kp LSHFT &mt LCTRL Z &mt LALT X &mt LGUI C &mt LSHFT D &kp V     &kp K &mt LSHFT H &mt LGUI COMMA &mt LALT DOT &mt LCTRL FSLH &kp RSHFT
                    &kp GRAVE &mo 1 &kp BSPC    &kp SPACE &lt 2 RET &kp DEL
                         >;
                 };
