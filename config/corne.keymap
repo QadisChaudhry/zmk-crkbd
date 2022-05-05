@@ -32,7 +32,7 @@
                 label = "caps_shift";
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
-                bindings = <&kp Q>, <&kp W>;
+                bindings = <&kp LSHFT>, <&kp CAPS>;
             };
         };
 
