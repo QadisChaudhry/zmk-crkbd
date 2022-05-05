@@ -31,7 +31,7 @@
                 compatible = "zmk,behavior-tap-dance";
                 label = "caps_shift";
                 #binding-cells = <0>;
-                tapping-term-ms = <100>;
+                tapping-term-ms = <200>;
                 bindings = <&kp Q>, <&kp W>;
             };
         };
