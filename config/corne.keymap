@@ -83,10 +83,10 @@
 
                 navigation {
                         bindings = <
-   &trans &trans    &trans   &trans   &trans    &trans       &trans       &kp LG(LBKT) &kp LC(LS(TAB)) &kp LC(TAB)   &kp LG(RBKT) &trans
-   &trans &trans    &trans   &trans   &trans    &trans       &kp LEFT     &kp DOWN     &kp UP          &kp RIGHT     &kp LC(LEFT) &kp LC(RIGHT)
-   &trans &kp LCTRL &kp LALT &kp LGUI &kp LSHFT &trans       &kp LG(LEFT) &kp LA(LEFT) &kp LA(RIGHT)   &kp LG(RIGHT) &trans       &trans
-                                  &trans &trans &trans       &trans &trans &trans
+   &trans &trans    &trans     &trans       &trans       &trans       &trans       &kp LG(LBKT) &kp LC(LS(TAB)) &kp LC(TAB)   &kp LG(RBKT) &trans
+   &trans &trans    &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans       &kp LEFT     &kp DOWN     &kp UP          &kp RIGHT     &kp LC(LEFT) &kp LC(RIGHT)
+   &trans &kp LCTRL &kp LALT   &kp LGUI     &kp LSHFT    &trans       &kp LG(LEFT) &kp LA(LEFT) &kp LA(RIGHT)   &kp LG(RIGHT) &trans       &trans
+                                 &kp C_PREV &kp C_PP &kp C_NEXT       &trans &trans &trans
                         >;
                 };
 
