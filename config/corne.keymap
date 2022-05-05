@@ -101,10 +101,10 @@
 
                 misc {
                         bindings = <
-   &reset &bootloader &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-   &trans &trans      &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-   &trans &trans      &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-                             &trans &trans &trans    &trans &trans &trans
+   &reset &bootloader &trans &trans &trans &trans    &trans      &trans     &trans &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &to COLEMAK &to QWERTY &trans &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &trans      &trans     &trans &trans &trans &trans
+                             &trans &trans &trans    &trans      &trans     &trans
                         >;
                 };
         };
