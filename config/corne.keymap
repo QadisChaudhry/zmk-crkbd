@@ -32,7 +32,7 @@
                 label = "caps_shift";
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
-                bindings = <&sk LSHFT>, <&kp CAPS>;
+                bindings = <&sk LSHFT>, <&caps_word>;
             };
         };
 
@@ -52,9 +52,18 @@
    &kp TAB   &kp Q        &kp W       &kp F       &kp P        &kp B     &kp J &kp L        &kp U           &kp Y         &kp SEMI        &kp EQUAL
    &lt 3 ESC &kp A        &kp R       &kp S       &kp T        &kp G     &kp M &kp N        &kp E           &kp I         &kp O           &kp SQT
    &cs       &hrm LCTRL Z &hrm LALT X &hrm LGUI C &hrm LSHFT D &kp V     &kp K &hrm LSHFT H &hrm LGUI COMMA &hrm LALT DOT &hrm LCTRL FSLH &cs
-                   &kp GRAVE &mo 1 &kp BSPC    &kp SPACE &lt 2 RET &kp DEL
+                                            &kp GRAVE &mo 1 &kp BSPC     &kp SPACE &lt 2 RET &kp DEL
                         >;
                 };
+
+                /* qwerty { */
+                /*         bindings = < */
+   /* &kp TAB   &kp Q        &kp W       &kp E       &kp R        &kp T     &kp Y &kp U        &kp I           &kp O         &kp P           &kp EQUAL */
+   /* &lt 3 ESC &kp A        &kp S       &kp D       &kp F        &kp G     &kp H &kp J        &kp K           &kp L         &kp SEMI        &kp SQT */
+   /* &cs       &hrm LCTRL Z &hrm LALT X &hrm LGUI C &hrm LSHFT V &kp B     &kp N &hrm LSHFT M &hrm LGUI COMMA &hrm LALT DOT &hrm LCTRL FSLH &cs */
+                /*                             &kp GRAVE &mo 1 &kp BSPC     &kp SPACE &lt 2 RET &kp DEL */
+                /*         >; */
+                /* }; */
 
                 numbers {
                         bindings = <
@@ -85,10 +94,10 @@
 
                 misc {
                         bindings = <
-   &reset &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans    &trans &trans &trans
+   &reset &bootloader &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                             &trans &trans &trans    &trans &trans &trans
                         >;
                 };
         };
