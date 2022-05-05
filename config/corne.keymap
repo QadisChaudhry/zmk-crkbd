@@ -67,7 +67,7 @@
 
                 navigation {
                         bindings = <
-   &trans &trans    &trans   &trans   &trans    &trans       &trans       &kp LG(LBRC) &kp LC(LS(TAB)) &kp LC(TAB)   &kp LG(RBRC) &trans
+   &trans &trans    &trans   &trans   &trans    &trans       &trans       &kp LG(LBKT) &kp LC(LS(TAB)) &kp LC(TAB)   &kp LG(RBKT) &trans
    &trans &trans    &trans   &trans   &trans    &trans       &kp LEFT     &kp DOWN     &kp UP          &kp RIGHT     &kp LC(LEFT) &kp LC(RIGHT)
    &trans &kp LCTRL &kp LALT &kp LGUI &kp LSHFT &trans       &kp LG(LEFT) &kp LA(LEFT) &kp LA(RIGHT)   &kp LG(RIGHT) &trans       &trans
                                   &trans &trans &trans       &trans &trans &trans
