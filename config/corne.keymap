@@ -74,10 +74,10 @@
 
                 numbers {
                         bindings = <
-   &trans &trans    &trans        &kp LBRC      &kp RBRC       &trans    &trans    &kp N7 &kp N8 &kp N9 &kp STAR &kp EQUAL
-   &trans &trans    &kp BSLH      &kp LPAR      &kp RPAR       &trans    &kp DOT   &kp N4 &kp N5 &kp N6 &kp PLUS &kp MINUS
+   &trans &trans    &trans         &kp LBRC       &kp RBRC        &trans    &trans    &kp N7 &kp N8 &kp N9 &kp STAR &kp EQUAL
+   &trans &trans    &kp BSLH       &kp LPAR       &kp RPAR        &trans    &kp DOT   &kp N4 &kp N5 &kp N6 &kp PLUS &kp MINUS
    &trans &kp LCTRL &hrm LALT PIPE &hrm LGUI LBKT &hrm LSHFT RBKT &trans    &kp COMMA &kp N1 &kp N2 &kp N3 &kp FSLH &trans
-                                                 &trans &trans &trans    &trans &kp N0 &trans
+                                                    &trans &trans &trans    &trans &kp N0 &trans
                         >;
                 };
 
@@ -101,10 +101,10 @@
 
                 misc {
                         bindings = <
-   &reset &bootloader &trans &trans &trans &trans    &trans      &trans     &trans &trans &trans &trans
-   &trans &trans      &trans &trans &trans &trans    &to COLEMAK &to QWERTY &trans &trans &trans &trans
-   &trans &trans      &trans &trans &trans &trans    &trans      &trans     &trans &trans &trans &trans
-                             &trans &trans &trans    &trans      &trans     &trans
+   &reset &bootloader &trans &trans &trans &trans    &trans &trans      &trans     &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &trans &to COLEMAK &to QWERTY &trans &trans &trans
+   &trans &trans      &trans &trans &trans &trans    &trans &trans      &trans     &trans &trans &trans
+                             &trans &trans &trans    &trans &trans &trans
                         >;
                 };
         };
